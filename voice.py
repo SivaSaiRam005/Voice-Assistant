@@ -42,8 +42,8 @@ def command():
         print(f"user said: {question}\n")
 
     except Exception as e:
-        print("Can you Repeat i couldn't get")
-        speak("Can you Repeat? i couldn't get other wise please try again later.")
+        print("Can you please repeat I couldn't get you")
+        speak("Can you please repeat? I couldn't get otherwise please try again later.")
         return "none"
     return question
 def send_email(to, subject, body):
