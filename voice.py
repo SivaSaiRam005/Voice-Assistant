@@ -26,7 +26,7 @@ def greeting():
     else:
         speak("Its getting late So Good Night!")
 
-    speak("Namaste I am SIVA. iam your Andhra Voice assitance how may i help you")
+    speak("Namaste I am SIVA. I am your Andhra Voice assitance how may i help you")
 #define command to assitance 
 def command():
 
@@ -94,7 +94,7 @@ if __name__== "__main__":
             strdate = dt.datetime.now().strftime("%Y-%m-%d")
             speak(f"The Current Time is {strdate}")
         elif "email" in question:
-            speak("To whom do you want to send a mail")
+            speak("To whom do you want to send a mail?")
             recipient = listen()
             speak("what should be the subject of mail")
             email_subject = listen()
